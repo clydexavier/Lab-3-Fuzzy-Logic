@@ -88,12 +88,10 @@ This project implements a Fuzzy Logic Controller for a water pump system. The co
 | **MODERATE** | DEACTIVATE | DEACTIVATE | FULL   |
 | **HIGH** | DEACTIVATE | DEACTIVATE | HALF      |
 
-## Output
+## Inference and Output
 
-`1.` Fuzzified input variables capture nuances like Low, Moderate, and High.
+`1.` Fuzzify input variables.
 
-`2.` Applied rules define system responses for different input conditions.
+`2.` Apply rules defined in system responses for different input conditions.
 
-`3.` Aggregated fuzzy outputs capture the overall decision-making process.
-
-`4.` Center of gravity calculation converts aggregated fuzzy output to a crisp value.
+`3.` Calculate center of gravity and convert fuzzy output to a crisp value.
